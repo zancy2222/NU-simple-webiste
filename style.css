@@ -1,0 +1,58 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: 'Century Gothic', sans-serif;
+    color: #333; /* Text color */
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 10px solid rgb(255, 241, 47);
+
+    margin-top: 2%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffff99; /* Info section background color with transparency */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+h1, h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #008080; /* Heading color */
+}
+p {
+    color: #555; /* Paragraph color */
+}
+.info-section {
+    padding-bottom: 20px;
+}
+.images-section {
+    text-align: center;
+    background-color: #f0e3be; /* Background color for facilities section */
+    padding: 20px;
+    margin-bottom: 20px; /* Add margin to separate from the footer */
+    border-radius: 10px;
+    border: 10px solid blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+}
+.images img {
+    margin: 10px;
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Image shadow */
+    max-width: 120px; /* Limit image width */
+    height: auto; /* Maintain aspect ratio */
+}
+.footer-section {
+    padding: 20px;
+    text-align: center;
+    background-color: yellow; /* Yellow background color for footer */
+    border-radius: 0 0 10px 10px; /* Rounded corners only at the bottom */
+}
+.logo-center img {
+    width: 50px; /* Adjust logo width */
+    height: auto; /* Maintain aspect ratio */
+}
+.h1-footer {
+    color: #008080; /* Footer heading color */
+}
